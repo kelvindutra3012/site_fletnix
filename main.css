@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+section h2,
+section h3,
+form button {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+body, input{
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    padding: 16px;
+    background-color: #a10707;
+    color: #f7f8f8;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.midias-sociais img{
+    height: 24px;
+}
+
+.midias-sociais li{
+    display: inline;
+    margin-right: 8px;    
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section p{
+    margin-bottom: 8px;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #a50606;
+    color: white;
+}
+
+footer{
+    background-color: #a10707;
+    color: #ecf0f1;
+    padding: 16px;
+
+}
+
+#contact .container{
+    display: block;   
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.midias-sociais li a{
+    text-decoration: none;
+}
+
+#geolocation .container{
+    align-items: center;
+    display: block;
+}
+
+section img{
+    height: 500px;
+}
+
+body{
+    background-image: url("./imagens/549464-fundo-abstrato-vermelho-escuro-e-preto-sobreposicao-004-vetor.jpg");
+    background-repeat: no-repeat;
+}
+
+div.box{
+    width: 600px;
+    display: inline-block;
+}
+
+span{
+    color: white;
+    display: block;
+}
+
+
